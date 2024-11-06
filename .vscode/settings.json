@@ -14,7 +14,7 @@
   "css.format.preserveNewLines": true,
   "typescript.format.enable": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.fixAll": "explicit"
   },
   "[prisma]": {
     "editor.defaultFormatter": "Prisma.prisma"

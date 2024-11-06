@@ -8,14 +8,14 @@ import { z } from 'zod';
  * Remember to update existing GitHub workflows that use env vars!
  */
 export const serverSchema = z.object({
-  DATABASE_URL: z.string().url(),
+  DATABASE_URL: z.string(),
   GITHUB_CLIENT_ID: z.string(),
   GITHUB_CLIENT_SECRET: z.string(),
   NEXTAUTH_SECRET: z.string(),
-  NEXTAUTH_URL: z.string().url(),
+  NEXTAUTH_URL: z.string(),
   NODE_ENV: z.enum(['development', 'test', 'production']),
   SUPABASE_ANON_KEY: z.string(),
-  SUPABASE_URL: z.string().url(),
+  SUPABASE_URL: z.string(),
 });
 
 /**
