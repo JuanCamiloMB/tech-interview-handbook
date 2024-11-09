@@ -1,0 +1,1120 @@
+{
+  "id": "a47292a6-c8b7-4724-8081-af47e3ddfdf2",
+  "version": "2.0",
+  "name": "FinalValidacion",
+  "url": "http://localhost:3000",
+  "tests": [{
+    "id": "48bc716f-b613-413e-802c-5cad1c10938f",
+    "name": "Traverse Pages",
+    "commands": [{
+      "id": "af8b0072-1f91-4faf-b646-5446b51b23a9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d4a92ab-9b1d-4e35-88bc-6d1e8edc6f21",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a513fd7-7a8b-4f3a-ae53-aec1e839e61e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,157)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2d2b849-a9c4-4b55-92d7-64cbe20ead88",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Start reading now  →",
+      "targets": [
+        ["linkText=Start reading now  →", "linkText"],
+        ["css=.buttons_src-pages-styles-module > .button", "css:finder"],
+        ["xpath=//a[contains(text(),'Start reading now  →')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/header/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/software-engineering-interview-guide/')])[2]", "xpath:href"],
+        ["xpath=//header/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start reading now  →')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2c04889-241f-477c-8c0b-6811f4fe6d22",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "27ab41e0-fb50-4052-8f82-0e7b7497b510",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,11476)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8dd5c7a8-845c-4f72-9ced-19e76a35c52e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pagination-nav__sublabel",
+      "targets": [
+        ["css=.pagination-nav__sublabel", "css:finder"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/main/div/div/div/div/nav/a/div", "xpath:idRelative"],
+        ["xpath=//nav/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb13fdaa-02cb-4d0c-8b0e-ab9c8e67188f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pagination-nav__link--next > .pagination-nav__label",
+      "targets": [
+        ["css=.pagination-nav__link--next > .pagination-nav__label", "css:finder"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/main/div/div/div/div/nav/a[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//a[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f97317c3-0b2b-4e37-a487-3f7beaa7cedd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Start reading now  →",
+      "targets": [
+        ["linkText=Start reading now  →", "linkText"],
+        ["css=.buttons_src-pages-styles-module > .button", "css:finder"],
+        ["xpath=//a[contains(text(),'Start reading now  →')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/header/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/software-engineering-interview-guide/')])[2]", "xpath:href"],
+        ["xpath=//header/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start reading now  →')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "558cadf9-abfe-4221-a8a0-8d35087e014f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Writing your software engineer resume",
+      "targets": [
+        ["linkText=Writing your software engineer resume", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(2) > .menu__list .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Writing your software engineer resume')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/resume/')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Writing your software engineer resume')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "70a1dff9-6092-4426-9031-2d6cd550a192",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Writing your software engineer resume",
+      "targets": [
+        ["linkText=Writing your software engineer resume", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(2) > .menu__list .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Writing your software engineer resume')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/resume/')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Writing your software engineer resume')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f9fda05-0294-4ff1-abd0-b12bf068b066",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Writing your software engineer resume",
+      "targets": [
+        ["linkText=Writing your software engineer resume", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(2) > .menu__list .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Writing your software engineer resume')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/resume/')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Writing your software engineer resume')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bb5605e-be4c-4308-b032-5e9bd18b2cf2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Step-by-step how to prepare",
+      "targets": [
+        ["linkText=Step-by-step how to prepare", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(3) .theme-doc-sidebar-item-link:nth-child(1) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Step-by-step how to prepare')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/coding-interview-prep/')])[2]", "xpath:href"],
+        ["xpath=//li[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Step-by-step how to prepare')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0398316-326e-4242-8af9-44e8ccabc928",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Picking a programming language",
+      "targets": [
+        ["linkText=Picking a programming language", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(3) .theme-doc-sidebar-item-link:nth-child(2) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Picking a programming language')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[3]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/programming-languages-for-coding-interviews/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Picking a programming language')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "be88d4b2-9c3b-4bd4-8b8c-24bdc109a098",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Study and practice plan",
+      "targets": [
+        ["linkText=Study and practice plan", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(3) .theme-doc-sidebar-item-link:nth-child(3) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Study and practice plan')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[3]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/coding-interview-study-plan/')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Study and practice plan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6468314c-574f-440d-8467-94f9197061a2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Best practices before, during, and after",
+      "targets": [
+        ["linkText=Best practices before, during, and after", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(3) .theme-doc-sidebar-item-link:nth-child(4) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Best practices before, during, and after')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[3]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/coding-interview-cheatsheet/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Best practices before, during, and after')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "78679128-cdd4-4ec3-abe0-dea75c405ff1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Techniques to solve questions",
+      "targets": [
+        ["linkText=Techniques to solve questions", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(3) .theme-doc-sidebar-item-link:nth-child(5) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Techniques to solve questions')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[3]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/coding-interview-techniques/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Techniques to solve questions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "16d7105d-7589-42fa-9e2e-0903aff82b70",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mock coding interviews",
+      "targets": [
+        ["linkText=Mock coding interviews", "linkText"],
+        ["css=.theme-doc-sidebar-item-link:nth-child(6) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Mock coding interviews')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[3]/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/mock-interviews/')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mock coding interviews')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a404804-a27b-4ace-a912-ab2adb7bd501",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Coding interview rubrics",
+      "targets": [
+        ["linkText=Coding interview rubrics", "linkText"],
+        ["css=.theme-doc-sidebar-item-link:nth-child(7) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Coding interview rubrics')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[3]/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/coding-interview-rubrics/')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Coding interview rubrics')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e356a701-8dd2-4ae0-bff0-2821c6a80e4e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=System design interview preparation",
+      "targets": [
+        ["linkText=System design interview preparation", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(4) > .menu__list-item-collapsible > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'System design interview preparation')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[4]/div/a", "xpath:idRelative"],
+        ["xpath=//li[4]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'System design interview preparation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "86e517ad-d3f7-4b53-ba5c-133ef52d13ec",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=System design preparation guide",
+      "targets": [
+        ["linkText=System design preparation guide", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(4) > .menu__list .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'System design preparation guide')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[4]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/system-design/')]", "xpath:href"],
+        ["xpath=//li[4]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'System design preparation guide')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "964e6c68-35e0-4a6b-9939-d4ed6e826827",
+      "comment": "",
+      "command": "click",
+      "target": "css=.theme-doc-sidebar-item-category:nth-child(5) .theme-doc-sidebar-item-link:nth-child(1) > .menu__link",
+      "targets": [
+        ["css=.theme-doc-sidebar-item-category:nth-child(5) .theme-doc-sidebar-item-link:nth-child(1) > .menu__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Step-by-step how to prepare')])[2]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[5]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/behavioral-interview/')]", "xpath:href"],
+        ["xpath=//li[5]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffb0d3e1-5de6-4a56-94ca-b55fd81d0ef3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Behavioral interview rubrics",
+      "targets": [
+        ["linkText=Behavioral interview rubrics", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(5) .theme-doc-sidebar-item-link:nth-child(2) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Behavioral interview rubrics')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[5]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/behavioral-interview-rubrics/')]", "xpath:href"],
+        ["xpath=//li[5]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Behavioral interview rubrics')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c347015a-d129-444b-9258-2fc20709fee4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Common behavioral questions to practice",
+      "targets": [
+        ["linkText=Common behavioral questions to practice", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(5) .theme-doc-sidebar-item-link:nth-child(3) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Common behavioral questions to practice')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[5]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/behavioral-interview-questions/')]", "xpath:href"],
+        ["xpath=//li[5]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Common behavioral questions to practice')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ce2873a-31ae-427e-b4f8-59659e310bb3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Preparing a self introduction",
+      "targets": [
+        ["linkText=Preparing a self introduction", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(5) .theme-doc-sidebar-item-link:nth-child(4) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Preparing a self introduction')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[5]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/self-introduction/')]", "xpath:href"],
+        ["xpath=//li[5]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Preparing a self introduction')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "db630c3c-d6a3-4936-8c8a-2af031443a60",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Preparing final questions to ask",
+      "targets": [
+        ["linkText=Preparing final questions to ask", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(5) .theme-doc-sidebar-item-link:nth-child(5) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Preparing final questions to ask')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[5]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/final-questions/')]", "xpath:href"],
+        ["xpath=//li[5]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Preparing final questions to ask')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "24b42eb8-f10e-44aa-aa3b-41f85383bfc3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Salary and offer negotiation preparation",
+      "targets": [
+        ["linkText=Salary and offer negotiation preparation", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(6) .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Salary and offer negotiation preparation')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[6]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//li[6]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Salary and offer negotiation preparation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "64b2eb95-e105-4879-be53-e8f0c59e8ddc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Understanding compensation",
+      "targets": [
+        ["linkText=Understanding compensation", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(6) .theme-doc-sidebar-item-link:nth-child(1) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Understanding compensation')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[6]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/understanding-compensation/')]", "xpath:href"],
+        ["xpath=//li[6]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Understanding compensation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed8567b1-7f2a-4c02-ae5a-8562d8c28d2a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Complete salary negotiation guide",
+      "targets": [
+        ["linkText=Complete salary negotiation guide", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(6) .theme-doc-sidebar-item-link:nth-child(2) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Complete salary negotiation guide')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[6]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/negotiation/')]", "xpath:href"],
+        ["xpath=//li[6]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Complete salary negotiation guide')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eea1ad3f-1c03-46a0-b3fe-973ff838dd1e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ten rules of negotiation",
+      "targets": [
+        ["linkText=Ten rules of negotiation", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(6) .theme-doc-sidebar-item-link:nth-child(3) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Ten rules of negotiation')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[6]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/negotiation-rules/')]", "xpath:href"],
+        ["xpath=//li[6]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ten rules of negotiation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "399fb8f2-1cf8-44ef-940c-b76d6daddf07",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Choosing between companies",
+      "targets": [
+        ["linkText=Choosing between companies", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(6) .theme-doc-sidebar-item-link:nth-child(4) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Choosing between companies')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[6]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/choosing-between-companies/')]", "xpath:href"],
+        ["xpath=//li[6]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Choosing between companies')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "815ba579-dbaa-4c7b-aa51-af808fc5acf0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Algorithms study cheatsheets",
+      "targets": [
+        ["linkText=Algorithms study cheatsheets", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(7) .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Algorithms study cheatsheets')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[7]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//li[7]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Algorithms study cheatsheets')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "45957087-a34d-4474-9677-79194fc74d1b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.theme-doc-sidebar-item-category:nth-child(7) > .menu__list > .theme-doc-sidebar-item-link > .menu__link",
+      "targets": [
+        ["css=.theme-doc-sidebar-item-category:nth-child(7) > .menu__list > .theme-doc-sidebar-item-link > .menu__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Introduction')])[2]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[7]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/algorithms/study-cheatsheet/')])[2]", "xpath:href"],
+        ["xpath=//li[7]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05fe192e-d94f-4ffb-9135-eb559b18b0df",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.theme-doc-sidebar-item-category:nth-child(7) > .menu__list > .theme-doc-sidebar-item-link > .menu__link",
+      "targets": [
+        ["css=.theme-doc-sidebar-item-category:nth-child(7) > .menu__list > .theme-doc-sidebar-item-link > .menu__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Introduction')])[2]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[7]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/algorithms/study-cheatsheet/')])[2]", "xpath:href"],
+        ["xpath=//li[7]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d9672f1-3677-48df-b868-9eff2cf7a7c0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.theme-doc-sidebar-item-link > .menu__link--active",
+      "targets": [
+        ["css=.theme-doc-sidebar-item-link > .menu__link--active", "css:finder"],
+        ["xpath=(//a[contains(text(),'Introduction')])[2]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[7]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/algorithms/study-cheatsheet/')])[2]", "xpath:href"],
+        ["xpath=//li[7]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "185f5f66-0d8b-4739-8718-ca7ed0c4cfe6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Basics",
+      "targets": [
+        ["linkText=Basics", "linkText"],
+        ["css=.theme-doc-sidebar-item-category-level-2:nth-child(2) > .menu__list-item-collapsible > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Basics')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[7]/ul/li[2]/div/a", "xpath:idRelative"],
+        ["xpath=//li[7]/ul/li[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Basics')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3753e367-d45b-4f41-b89b-09276fed3f2c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Array",
+      "targets": [
+        ["linkText=Array", "linkText"],
+        ["css=.theme-doc-sidebar-item-category-level-2:nth-child(2) .theme-doc-sidebar-item-link:nth-child(1) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Array')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[7]/ul/li[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/algorithms/array/')]", "xpath:href"],
+        ["xpath=//li[7]/ul/li[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Array')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a15e8b2-cd05-42e5-89ec-9537c9afa0ce",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=String",
+      "targets": [
+        ["linkText=String", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(2) .theme-doc-sidebar-item-link:nth-child(2) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'String')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[7]/ul/li[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/algorithms/string/')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'String')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "918fea52-af6c-457a-9e6a-113028502015",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Hash table",
+      "targets": [
+        ["linkText=Hash table", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(2) .theme-doc-sidebar-item-link:nth-child(3) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Hash table')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[7]/ul/li[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/algorithms/hash-table/')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Hash table')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b810e6df-f99e-4123-97e9-14252589d66d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Recursion",
+      "targets": [
+        ["linkText=Recursion", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(2) .theme-doc-sidebar-item-link:nth-child(4) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Recursion')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[7]/ul/li[2]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/algorithms/recursion/')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Recursion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eaaf9352-396e-479f-9a1c-88ab20fc9c4f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sorting and searching",
+      "targets": [
+        ["linkText=Sorting and searching", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(2) .theme-doc-sidebar-item-link:nth-child(5) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Sorting and searching')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[7]/ul/li[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/algorithms/sorting-searching/')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sorting and searching')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cf6bab2-1aab-485e-bfd9-0a57169b89e0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Matrix",
+      "targets": [
+        ["linkText=Matrix", "linkText"],
+        ["css=.theme-doc-sidebar-item-category-level-2:nth-child(3) .theme-doc-sidebar-item-link:nth-child(1) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Matrix')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[7]/ul/li[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/algorithms/matrix/')]", "xpath:href"],
+        ["xpath=//li[7]/ul/li[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Matrix')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "58cc2254-2a9e-4819-a826-eba232294f1d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Linked list",
+      "targets": [
+        ["linkText=Linked list", "linkText"],
+        ["css=.theme-doc-sidebar-item-category-level-2:nth-child(3) .theme-doc-sidebar-item-link:nth-child(2) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Linked list')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[7]/ul/li[3]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/algorithms/linked-list/')]", "xpath:href"],
+        ["xpath=//li[7]/ul/li[3]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Linked list')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "86a9be8c-821b-4c59-89a8-74b6ec594754",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Queue",
+      "targets": [
+        ["linkText=Queue", "linkText"],
+        ["css=.theme-doc-sidebar-item-category-level-2:nth-child(3) .theme-doc-sidebar-item-link:nth-child(3) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Queue')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[7]/ul/li[3]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/algorithms/queue/')]", "xpath:href"],
+        ["xpath=//li[7]/ul/li[3]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Queue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "26f8ff8f-19d7-4bc5-8fca-63e0245558eb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Stack",
+      "targets": [
+        ["linkText=Stack", "linkText"],
+        ["css=.theme-doc-sidebar-item-category-level-2:nth-child(3) .theme-doc-sidebar-item-link:nth-child(4) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Stack')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[7]/ul/li[3]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/algorithms/stack/')]", "xpath:href"],
+        ["xpath=//li[7]/ul/li[3]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Stack')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d67a2b1-54c6-456e-b57b-81a268afe939",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Interval",
+      "targets": [
+        ["linkText=Interval", "linkText"],
+        ["css=.theme-doc-sidebar-item-category-level-2:nth-child(3) .theme-doc-sidebar-item-link:nth-child(5) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Interval')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[7]/ul/li[3]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/algorithms/interval/')]", "xpath:href"],
+        ["xpath=//li[7]/ul/li[3]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Interval')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad4499b8-0019-405e-9f74-021e2a983dd3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tree",
+      "targets": [
+        ["linkText=Tree", "linkText"],
+        ["css=.theme-doc-sidebar-item-category-level-2:nth-child(4) .theme-doc-sidebar-item-link:nth-child(1) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Tree')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[7]/ul/li[4]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/algorithms/tree/')]", "xpath:href"],
+        ["xpath=//li[7]/ul/li[4]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tree')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4303b90-b264-443e-abb9-3d3b9a50abac",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Graph",
+      "targets": [
+        ["linkText=Graph", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(4) .theme-doc-sidebar-item-link:nth-child(2) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Graph')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[7]/ul/li[4]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/algorithms/graph/')]", "xpath:href"],
+        ["xpath=//li[4]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Graph')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e664bdbe-540f-47e1-abbb-222c863322db",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Heap",
+      "targets": [
+        ["linkText=Heap", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(4) .theme-doc-sidebar-item-link:nth-child(3) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Heap')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[7]/ul/li[4]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/algorithms/heap/')]", "xpath:href"],
+        ["xpath=//li[4]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Heap')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9656444-899e-48bc-be84-d02e2c3f8be4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Trie",
+      "targets": [
+        ["linkText=Trie", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(4) .theme-doc-sidebar-item-link:nth-child(4) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Trie')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[7]/ul/li[4]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/algorithms/trie/')]", "xpath:href"],
+        ["xpath=//li[4]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Trie')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "04825a2e-4e1b-4c51-aeab-8f02abdf3a2c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Dynamic programming",
+      "targets": [
+        ["linkText=Dynamic programming", "linkText"],
+        ["css=.theme-doc-sidebar-item-category-level-2:nth-child(5) .theme-doc-sidebar-item-link:nth-child(1) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Dynamic programming')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[7]/ul/li[5]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/algorithms/dynamic-programming/')]", "xpath:href"],
+        ["xpath=//li[7]/ul/li[5]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Dynamic programming')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "af144c26-d2e6-438f-a6ca-682bd4181e08",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Binary",
+      "targets": [
+        ["linkText=Binary", "linkText"],
+        ["css=.theme-doc-sidebar-item-category-level-2:nth-child(5) .theme-doc-sidebar-item-link:nth-child(2) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Binary')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[7]/ul/li[5]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/algorithms/binary/')]", "xpath:href"],
+        ["xpath=//li[7]/ul/li[5]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Binary')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d72852a5-310c-4ef3-b489-c81d523ae433",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Math",
+      "targets": [
+        ["linkText=Math", "linkText"],
+        ["css=.theme-doc-sidebar-item-category-level-2:nth-child(5) .theme-doc-sidebar-item-link:nth-child(3) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Math')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[7]/ul/li[5]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/algorithms/math/')]", "xpath:href"],
+        ["xpath=//li[7]/ul/li[5]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Math')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c790c521-f4c2-4724-a44b-a61887bd41cf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Geometry",
+      "targets": [
+        ["linkText=Geometry", "linkText"],
+        ["css=.theme-doc-sidebar-item-category-level-2:nth-child(5) .theme-doc-sidebar-item-link:nth-child(4) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Geometry')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[7]/ul/li[5]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/algorithms/geometry/')]", "xpath:href"],
+        ["xpath=//li[7]/ul/li[5]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Geometry')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb398c09-b1d5-43ec-998b-57c26a9d8320",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Beyond the interview",
+      "targets": [
+        ["linkText=Beyond the interview", "linkText"],
+        ["css=.menu__list-item--collapsed .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Beyond the interview')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[8]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[4]", "xpath:href"],
+        ["xpath=//li[8]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Beyond the interview')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2b18527-22df-48c6-8ff4-cab5b697a71a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=💼 Company interview formats",
+      "targets": [
+        ["linkText=💼 Company interview formats", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(8) .theme-doc-sidebar-item-link:nth-child(1) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'💼 Company interview formats')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[8]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/interview-formats-top-companies/')]", "xpath:href"],
+        ["xpath=//li[8]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'💼 Company interview formats')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "16ad9dbd-763c-44b4-9683-1eedbb848ba1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=🏔 Landscape",
+      "targets": [
+        ["linkText=🏔 Landscape", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(8) .theme-doc-sidebar-item-link:nth-child(2) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'🏔 Landscape')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[8]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/landscape/')]", "xpath:href"],
+        ["xpath=//li[8]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'🏔 Landscape')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "542ad515-6284-4c28-9947-c8bbc06bd4c0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=🎚 Engineering levels",
+      "targets": [
+        ["linkText=🎚 Engineering levels", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(8) .theme-doc-sidebar-item-link:nth-child(3) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'🎚 Engineering levels')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[8]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/engineering-levels/')]", "xpath:href"],
+        ["xpath=//li[8]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'🎚 Engineering levels')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2c7801f-8add-4070-b04e-fea38e5dd2aa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=📈 Career growth",
+      "targets": [
+        ["linkText=📈 Career growth", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(8) .theme-doc-sidebar-item-link:nth-child(4) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'📈 Career growth')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[8]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/career-growth/')]", "xpath:href"],
+        ["xpath=//li[8]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'📈 Career growth')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "895bc897-ee9e-40f7-aaff-0dc159f04d86",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=👩‍💻 Cheatsheet (Interviewer)",
+      "targets": [
+        ["linkText=👩‍💻 Cheatsheet (Interviewer)", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(8) .theme-doc-sidebar-item-link:nth-child(5) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'👩‍💻 Cheatsheet (Interviewer)')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[8]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/interviewer-cheatsheet/')]", "xpath:href"],
+        ["xpath=//li[8]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'👩‍💻 Cheatsheet (Interviewer)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cabc555-1575-4a27-aa07-6fb509280500",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=🔥 Best interview courses",
+      "targets": [
+        ["linkText=🔥 Best interview courses", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(8) .theme-doc-sidebar-item-link:nth-child(6) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'🔥 Best interview courses')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[8]/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/best-coding-interview-courses/')]", "xpath:href"],
+        ["xpath=//li[8]/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'🔥 Best interview courses')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "874754c7-3426-4914-bfeb-4384b94319f4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=🔥 Best practice questions",
+      "targets": [
+        ["linkText=🔥 Best practice questions", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(8) .theme-doc-sidebar-item-link:nth-child(7) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'🔥 Best practice questions')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/aside/div/div/nav/ul/li[8]/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/best-practice-questions/')]", "xpath:href"],
+        ["xpath=//li[8]/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'🔥 Best practice questions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "00f22720-f17d-4e2b-adb8-be99aa5a7dbf",
+    "name": "NavBar",
+    "commands": [{
+      "id": "80ae6e4a-0703-4006-92ae-cf5df8d1bd5d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aed236f6-2e51-405d-a6c8-48c43f758ed0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2717cd54-5c0c-4551-96eb-7d9a9192aa59",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Start reading",
+      "targets": [
+        ["linkText=Start reading", "linkText"],
+        ["css=.navbar__item:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Start reading')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus']/nav/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/software-engineering-interview-guide/')]", "xpath:href"],
+        ["xpath=//nav/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Start reading')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "042f88dd-ce48-4067-aa16-90046843ae48",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Start reading",
+      "targets": [
+        ["linkText=Start reading", "linkText"],
+        ["css=.navbar__item:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Start reading')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus']/nav/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/software-engineering-interview-guide/')]", "xpath:href"],
+        ["xpath=//nav/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Start reading')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "018d1878-bded-4e25-bb95-4c436f27d993",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Start reading",
+      "targets": [
+        ["linkText=Start reading", "linkText"],
+        ["css=.navbar__item:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Start reading')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus']/nav/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/software-engineering-interview-guide/')]", "xpath:href"],
+        ["xpath=//nav/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Start reading')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c0f543a-e96d-48b2-b24c-b39d24eb8bbd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Coding",
+      "targets": [
+        ["linkText=Coding", "linkText"],
+        ["css=.navbar__item:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Coding')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus']/nav/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/coding-interview-prep/')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Coding')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef34daf4-6c18-4fb6-8164-46df7afabd72",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Algorithms",
+      "targets": [
+        ["linkText=Algorithms", "linkText"],
+        ["css=.navbar__item:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Algorithms')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus']/nav/div/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/algorithms/study-cheatsheet/')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Algorithms')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "754c1175-ff00-4857-af01-d4d9fa60be82",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Blog",
+      "targets": [
+        ["linkText=Blog", "linkText"],
+        ["css=.navbar__item:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Blog')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus']/nav/div/div/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/blog/')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Blog')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "870dc2b6-461b-44be-af2d-f4539599d4c2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Blog",
+      "targets": [
+        ["linkText=Blog", "linkText"],
+        ["css=.navbar__link--active", "css:finder"],
+        ["xpath=//a[contains(text(),'Blog')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus']/nav/div/div/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/blog/')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Blog')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6972472b-3c90-40ae-9216-e7e1ff668c07",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Blog",
+      "targets": [
+        ["linkText=Blog", "linkText"],
+        ["css=.navbar__link--active", "css:finder"],
+        ["xpath=//a[contains(text(),'Blog')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus']/nav/div/div/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/blog/')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Blog')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "88095dee-747b-40ba-af03-d311b82cdba4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lightToggleIcon_------node_modules-\\@docusaurus-theme-classic-lib-theme-ColorModeToggle-styles-module",
+      "targets": [
+        ["css=.lightToggleIcon_------node_modules-\\@docusaurus-theme-classic-lib-theme-ColorModeToggle-styles-module", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e941594-0423-4e8c-afa3-55b6b5c1d404",
+      "comment": "",
+      "command": "click",
+      "target": "css=.darkToggleIcon_------node_modules-\\@docusaurus-theme-classic-lib-theme-ColorModeToggle-styles-module",
+      "targets": [
+        ["css=.darkToggleIcon_------node_modules-\\@docusaurus-theme-classic-lib-theme-ColorModeToggle-styles-module", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "860638f5-2c64-4ce3-881b-5b60fd610f25",
+    "name": "Search",
+    "commands": [{
+      "id": "8df9420c-a534-4bbe-8a6d-97e37e3fc231",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b02a94f6-e2a0-4b76-8d40-9bfd16d83eb5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "175a8ba6-28f6-4e91-9538-e4ec49ff91f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DocSearch-Button-Placeholder",
+      "targets": [
+        ["css=.DocSearch-Button-Placeholder", "css:finder"],
+        ["xpath=//div[@id='__docusaurus']/nav/div/div[2]/div[2]/button/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65931f46-37d2-4265-ae5d-cab8828655d2",
+      "comment": "",
+      "command": "type",
+      "target": "id=docsearch-input",
+      "targets": [
+        ["id=docsearch-input", "id"],
+        ["css=#docsearch-input", "css:finder"],
+        ["xpath=//input[@id='docsearch-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "java"
+    }, {
+      "id": "334e6bf5-0b1e-48af-bcba-61bca68f8c79",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=docsearch-input",
+      "targets": [
+        ["id=docsearch-input", "id"],
+        ["css=#docsearch-input", "css:finder"],
+        ["xpath=//input[@id='docsearch-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "0aad1c90-e981-4073-8ae4-a129577a585a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.DocSearch-Button-Placeholder",
+      "targets": [
+        ["css=.DocSearch-Button-Placeholder", "css:finder"],
+        ["xpath=//div[@id='__docusaurus']/nav/div/div[2]/div[2]/button/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70dbac64-4791-4c00-9091-3f45a447347f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,802)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "15eb94dc-b901-481a-b928-4cbe413f3b16",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost:3000/"],
+  "plugins": []
+}
